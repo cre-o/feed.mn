@@ -7,6 +7,7 @@ gem 'slim'
 gem 'rack-coffee'
 gem 'sass'
 
+gem 'therubyracer', :platforms => :ruby
 gem 'unicorn'
 gem 'capistrano'
 gem 'capistrano-deploy'
