@@ -55,7 +55,7 @@ h1 {
 
 a.needmore {
   color: $light_blue;
-  font: 28px/30px $default_font;
+  font: 30px/30px $default_font;
 }
 
 span {
@@ -106,12 +106,12 @@ span {
     width: 240px;
     height: 268px;
     margin-top: -20px;
-    margin-left: 0px;
+    margin-left: 15px;
   }
 
   &.feedman-complete {
     background-position: -714px 0; width: 330px; height: 246px;
-    margin-left: -60px;
+    margin-left: -100px;
   }
 
   // Buttons
