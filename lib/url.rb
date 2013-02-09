@@ -9,7 +9,7 @@ class Url
   validates_presence_of :url
   validates_presence_of :short
   validates_length_of :url, minimum: 4, maximum: 800
-  validates_format_of :url, with: /^((?!feed\.mn).)*\.[a-z]+$/
+  validates_format_of :url, with: /^((?!feed\.mn).)*\.\S+$/
   validates_uniqueness_of :short
 
 end
