@@ -7,10 +7,10 @@ class Feedmn < Sinatra::Base
   # Use rack flash
   use Rack::Flash
   # Load mongoid
-  Mongoid.load!('./config/mongoid.yml', :development)
+  Mongoid.load!('./config/mongoid.yml', :production)
 
   # Configuration
-  set :environment, :development
+  set :environment, :production
   if settings.environment == 'production'
     set :show_exceptions, false
   end
